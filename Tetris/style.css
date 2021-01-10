@@ -1,0 +1,66 @@
+.grid {
+	/*20px X 20px per square*/
+	/*10 X 20 grid*/
+	width: 200px;
+	height: 400px;
+	background-color: #474342;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.grid div {
+	/*divs inside things with the class grid*/
+	/*each one is a square on the grid*/
+	width: 20px;
+	height: 20px;
+
+}
+
+.tetro {
+	background-color: #bd1e13;
+}
+
+.mtetro {
+	background-color: #bd1e13;
+}
+
+.minigrid {
+	width: 80px;
+	height: 80px;
+	background-color: #474342;
+	display: flex;
+	flex-wrap: wrap;
+	margin-left: 25px;
+}
+
+.minigrid div{
+	width: 20px;
+	height: 20px;
+}
+
+.container{
+	display: flex;
+}
+
+
+.cyan {
+	background-color: #4de3e3;
+}
+.yellow{
+	background-color: #f0cc1a;
+}
+.magenta{
+	background-color: #d111ce;
+}
+.blue{
+	background-color: #1821d9;
+}
+.orange{
+	background-color: #f2930f;
+}
+.lime{
+	background-color: #1bcf0e;
+}
+.red{
+	background-color: #cf180e;
+}
